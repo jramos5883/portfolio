@@ -1,1 +1,32 @@
 /* Comment */
+body {
+    background-color: #191970;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.intro {
+    padding-left:  7%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.fa-brands {
+    color: #fff;
+
+}

@@ -16,27 +16,95 @@
       src="https://kit.fontawesome.com/85d5839673.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Logo</a>
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <h1>Hello, World!</h1>
+      <!-- Introduction -->
+      <div class="row">
+        <div class="intro col-lg-9">
+          <h4>Hi, my name is</h4>
+          <h1>John Ramos.</h1>
+          <h2>I build things for the web.</h2>
+          <p>
+            I am a Los Angeles based junior software engineer looking to break
+            into the tech industry.
+          </p>
+          <button class="btn btn-lg btn-light">
+            Get In Touch <i class="fa-regular fa-envelope"></i>
+          </button>
+          <button class="btn btn-lg btn-light">
+            Resume <i class="fa-regular fa-file"></i>
+          </button>
+        </div>
+      </div>
+      <!-- About Me -->
+      <h3>About Me</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum
+        magna et auctor luctus. Pellentesque habitant morbi tristique senectus
+        et netus et malesuada fames ac turpis egestas. Phasellus vitae lobortis
+        odio, et ultricies dui. Duis sollicitudin diam sit amet nunc ultrices
+        imperdiet. Nam cursus bibendum finibus. Maecenas vehicula pellentesque
+        vestibulum. In accumsan vehicula gravida. Duis tempus lectus non urna
+        suscipit pharetra a non ipsum. Nam mattis, massa non ullamcorper
+        ultrices, dolor est sollicitudin urna, non aliquam tortor erat ut risus.
+        Suspendisse lacinia dapibus nisl at pellentesque. Ut bibendum a libero
+        id vulputate. Fusce egestas vel felis id blandit. Morbi dolor purus,
+        egestas interdum purus eget, suscipit porta enim. Vestibulum ante ipsum
+        primis in faucibus orci luctus et ultrices posuere cubilia curae;
+      </p>
+      <h3>Skills</h3>
+      <i class="fa-brands fa-5x fa-html5"></i>
+      <i class="fa-brands fa-5x fa-css3-alt"></i>
+      <i class="fa-brands fa-5x fa-square-js"></i>
+      <i class="fa-brands fa-5x fa-python"></i>
+      <i class="fa-brands fa-5x fa-github"></i>
+      <i class="fa-brands fa-5x fa-bootstrap"></i>
+      <i class="fa-brands fa-5x fa-node"></i>
+
+      <!-- Projects -->
+      <h3>Projects I've Built</h3>
+      <!-- Contact / CTA -->
+      <h3>Contact Me</h3>
       <!-- Bootstrap CDN -->
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
