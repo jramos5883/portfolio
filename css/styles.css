@@ -33,9 +33,28 @@ p {
 }
 
 .intro {
-    padding-left:  7%;
-    padding-top: 12%;
-    padding-bottom: 12%;
+    padding-left:  15%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.btn-outline-warning {
+    color: #FFEB3B;
+}
+
+.about-me {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.profile-pic {
+    max-width: 250px;
+}
+
+.skills-section {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20%;
 }
 
 .fa-brands {
@@ -48,4 +67,18 @@ p {
 
 .icon-text {
     color : #FFEB3B;
+}
+
+.proj-sec {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20%;
+}
+
+.cta-section {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    
 }
