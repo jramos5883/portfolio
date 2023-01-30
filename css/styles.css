@@ -82,3 +82,38 @@ p {
     padding-bottom: 20%;
     
 }
+
+.cta-form {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(17 24 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text {
+    color: #fff;
+}
+
+form {
+    background: rgb(17 24 39);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 5%;
+    outline: none;
+    background-color: #fff;
+}
+
+form button {
+    color:#FFEB3B;
+}
