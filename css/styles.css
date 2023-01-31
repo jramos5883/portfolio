@@ -1,127 +1,136 @@
 /* Comment */
 body {
-    background-color: rgb(17 24 39);
+  background-color: rgb(17 24 39);
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: #fff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
 }
 
-h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
 }
 
 h4 {
-    color : #FFEB3B;
+  color: #ffeb3b;
 }
 
 h2 {
-    color: grey;
+  color: grey;
 }
 
 p {
-    color: grey;
+  color: grey;
 }
 
 /* Navbar */
 
 .navbar-brand {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 /* Intro */
 
 .intro {
-    padding-left:  15%;
-    padding-top: 10%;
-    padding-bottom: 20%;
+  padding-left: 15%;
+  padding-top: 10%;
+  padding-bottom: 20%;
 }
 
 .btn-outline-warning {
-    color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 .about-me {
-    padding-left: 15%;
-    padding-right: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .profile-pic {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 .skills-section {
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 20%;
 }
 
 .fa-brands {
-    color: #fff;
+  color: #fff;
 }
 
 .skill-icon {
-    text-align: center;
+  text-align: center;
 }
 
 .text-yellow {
-    color : #FFEB3B;
+  color: #ffeb3b;
 }
 
 /* Projects */
 
 .proj-sec {
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 20%;
 }
 
 /* Call To Action */
 
 .cta-section {
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 20%;
-    
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
 }
 
 .cta-form {
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(17 24 39);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  background-color: rgb(17 24 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-text {
-    color: #fff;
+  color: #ffeb3b;
+}
+
+.form-title {
+  font-size: 1.5rem;
 }
 
 form {
-    background: rgb(17 24 39);
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
+  background: rgb(17 24 39);
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
 }
 
-form input, form textarea {
-    border: 0;
-    margin: 10px 0;
-    padding: 5%;
-    outline: none;
-    background-color: #fff;
+form input,
+form textarea {
+  border: 0;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1%;
+  outline: none;
+  background-color: #fff;
 }
 
 form button {
-    color:#FFEB3B;
+  color: #ffeb3b;
 }

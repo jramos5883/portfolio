@@ -58,7 +58,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact"
-                ><span class="text-yellow">03.</span> Contact Info</a
+                ><span class="text-yellow">03.</span> Contact Form</a
               >
             </li>
           </ul>
@@ -79,9 +79,10 @@
             and challenges and continue to improve my coding skills and
             knowledge.
           </p>
-          <button class="btn btn-lg btn-outline-warning">
-            Get In Touch <i class="fa-regular fa-envelope"></i>
-          </button>
+          <a href="#contact" class="btn btn-lg btn-outline-warning"
+            >Get In Touch <i class="fa-regular fa-envelope"></i
+          ></a>
+
           <button class="btn btn-lg btn-outline-warning ms-5">
             Resume <i class="fa-regular fa-file"></i>
           </button>
@@ -249,17 +250,20 @@
       </p>
       <div class="container cta-form">
         <form action="">
-          <h3 class="form-text">Contact Form</h3>
+          <h3 class="form-text form-title">Contact Form</h3>
           <input type="text" id="name" placeholder="Your Name" required />
           <input type="email" id="email" placeholder="Email Id" required />
           <input type="text" id="email" placeholder="Phone #" required />
           <textarea
+            class="mb-3"
             name="text"
             id="message"
             placeholder="What can I do for you?"
             rows="10"
           ></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" class="btn btn-lg btn-outline-warning">
+            Send <i class="fa-regular fa-envelope"></i>
+          </button>
         </form>
       </div>
     </div>
