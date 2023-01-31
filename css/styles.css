@@ -66,6 +66,7 @@ p {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 20%;
+  text-align: center;
 }
 
 .fa-brands {
@@ -86,6 +87,10 @@ p {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 20%;
+}
+
+.proj-3-img {
+    width: auto;
 }
 
 /* Call To Action */
