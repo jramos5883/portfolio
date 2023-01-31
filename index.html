@@ -24,6 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js"></script>
     <title>Portfolio</title>
   </head>
 
@@ -249,11 +250,11 @@
         feel free to send me a message!
       </p>
       <div class="container cta-form">
-        <form action="">
+        <form onsubmit="sendEmail(); reset(); return false;">
           <h3 class="form-text form-title">Contact Form</h3>
           <input type="text" id="name" placeholder="Your Name" required />
           <input type="email" id="email" placeholder="Email Id" required />
-          <input type="text" id="email" placeholder="Phone #" required />
+          <input type="text" id="phone" placeholder="Phone #" required />
           <textarea
             class="mb-3"
             name="text"
@@ -273,5 +274,26 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <!-- SmtpJS CDN -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          SecureToken: "351d1d13-00ff-4faa-a23a-4cdd1a2a6666",
+          To: "jramos5883@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact Form Enquiry",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Phone #: " +
+            document.getElementById("phone").value +
+            "<br> Message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message Sent Succesfully"));
+      }
+    </script>
   </body>
 </html>
