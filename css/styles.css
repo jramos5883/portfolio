@@ -83,6 +83,10 @@ p {
 
 /* Projects */
 
+.card {
+  border-color: #ffeb3b;
+}
+
 .proj-sec {
   padding-left: 15%;
   padding-right: 15%;
