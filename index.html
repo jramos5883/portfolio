@@ -168,17 +168,13 @@
       </h3>
       <div class="card-group">
         <div class="card col-lg-4" style="width: 18rem">
-          <img
-            src="images/poketothemoon.png"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="images/poketothemoon.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Poke To The Moon Restaurant Website</h5>
             <p class="card-text">
               Created a website for a poke restaurant in California. Building
-              this site gave me experience with working with a client, meeting
-              deadlines, and building a site for real world application.
+              this site gave me experience with working and building for a
+              client, keeping up with deadlines, and project managment.
             </p>
           </div>
           <ul class="list-group list-group-flush">
@@ -188,8 +184,16 @@
             <li class="list-group-item">Bootstrap</li>
           </ul>
           <div class="card-body">
-            <a href="https://jramos5883.github.io/poketothemoon/" class="card-link">Demo</a>
-            <a href="https://github.com/jramos5883/poketothemoon" class="card-link">Github link</a>
+            <a
+              href="https://jramos5883.github.io/poketothemoon/"
+              class="card-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/jramos5883/poketothemoon"
+              class="card-link"
+              >Github link</a
+            >
           </div>
         </div>
 
@@ -283,6 +287,7 @@
       </div>
     </div>
     <!-- Bootstrap CDN -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -293,8 +298,9 @@
     <script>
       function sendEmail() {
         Email.send({
-          SecureToken: "351d1d13-00ff-4faa-a23a-4cdd1a2a6666",
-          To: "jramos5883@gmail.com",
+          // Need to make sure this works with anyone's email, not just mine
+          SecureToken: "6780ab64-ffdc-4a30-8268-bd6b33db6ab8",
+          To: "jrprodev@gmail.com",
           From: document.getElementById("email").value,
           Subject: "New Contact Form Enquiry",
           Body:
