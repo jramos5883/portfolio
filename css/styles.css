@@ -46,7 +46,7 @@ p {
 .intro {
   padding-left: 15%;
   padding-top: 10%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
 }
 
 .btn-outline-warning {
@@ -65,7 +65,7 @@ p {
 .skills-section {
   padding-left: 15%;
   padding-right: 15%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
   text-align: center;
 }
 
@@ -90,7 +90,7 @@ p {
 .proj-sec {
   padding-left: 15%;
   padding-right: 15%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
 }
 
 .proj-3-img {
@@ -103,7 +103,7 @@ p {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
 }
 
 .cta-form {
