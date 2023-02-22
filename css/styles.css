@@ -1,6 +1,7 @@
 /* Comment */
 body {
   background-color: rgb(17 24 39);
+  font-size: 1.5rem;
 }
 
 h1,
@@ -21,6 +22,10 @@ h2 {
 
 h4 {
   color: #ffeb3b;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -59,7 +64,9 @@ p {
 }
 
 .profile-pic {
-  max-width: 250px;
+  max-width: 500px;
+  border-radius: 50%;
+  
 }
 
 .skills-section {
