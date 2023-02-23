@@ -54,7 +54,8 @@ p {
   padding-bottom: 15%;
 }
 
-.btn-outline-warning {
+.btn-outline-warning,
+.fa-linkedin {
   color: #ffeb3b;
 }
 
@@ -66,7 +67,6 @@ p {
 .profile-pic {
   max-width: 500px;
   border-radius: 50%;
-  
 }
 
 .skills-section {
@@ -76,7 +76,7 @@ p {
   text-align: center;
 }
 
-.fa-brands {
+.icon {
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .proj-3-img {
-    width: auto;
+  width: auto;
 }
 
 /* Call To Action */
