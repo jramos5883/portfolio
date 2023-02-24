@@ -150,3 +150,8 @@ form textarea {
 form button {
   color: #ffeb3b;
 }
+
+.footer {
+  justify-content: center;
+  text-align: center;
+}

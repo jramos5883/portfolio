@@ -292,6 +292,9 @@
         </form>
       </div>
     </div>
+    <!-- Footer -->
+    <!-- Need to decide on the footer -->
+    <div class="footer"><p>Copyright 2023</p></div>
     <!-- Bootstrap CDN -->
 
     <script
@@ -305,6 +308,7 @@
       function sendEmail() {
         Email.send({
           // Need to make sure this works with anyone's email, not just mine
+          // Just bought a domain name, going to make a domain email to connect to my work email
           SecureToken: "6780ab64-ffdc-4a30-8268-bd6b33db6ab8",
           To: "jrprodev@gmail.com",
           From: document.getElementById("email").value,
