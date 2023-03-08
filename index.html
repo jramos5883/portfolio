@@ -96,7 +96,11 @@
             >Get In Touch <i class="fa-regular fa-envelope fa-2xl"></i
           ></a>
 
-          <a class="btn btn-lg btn-outline-warning ms-5" href="">
+          <a
+            class="btn btn-lg btn-outline-warning ms-5"
+            href=""
+            onclick="openResume()"
+          >
             Resume <i class="fa-regular fa-file fa-2xl"></i
           ></a>
         </div>
@@ -107,42 +111,37 @@
       <div class="row">
         <div class="col-lg-7">
           <h3 id="about-me"><span class="text-yellow">01.</span> About Me</h3>
-          <!-- <p>
-            Hello! My name is John and I enjoy all things related to science and
-            technology. Growing up, I believed that my future career would
-            either be in medicine or tech. I started my professional career
-            studying medicine and working in emergency medical services as an
-            EMT, Paramedic, and Firefighter Paramedic. Though I enjoyed my
-            career in EMS, my interest in technology, specifically coding,
-            continued to grow exponentially as I got older. After reflecting on
-            my ideals and ambitions, I decided to take the leap of faith and
-            pursue a career as a software engineer.
+          <p>
+            Hi, I'm John - a lifelong learner with a passion for science and
+            technology. My early career as an EMT, Paramedic, and Firefighter
+            Paramedic was driven by my love of science and the human body. But
+            as I continued to explore the world of tech and programming, I found
+            myself captivated by the endless possibilities for innovation and
+            problem-solving. While I enjoyed the fast paced and hands-on work of
+            emergency medicine, my true passion for tech was sparked by my
+            introduction to coding. Now, as a software engineer, I bring a
+            unique blend of analytical thinking and scientific curiosity to
+            every project I work on.
           </p>
           <p>
-            Fast-forward to today, I've continued to progress in coding as a
-            self taught developer. I am currently teaching myself React.js and
-            am focused on front-end development. My goal is to become a full
-            stack developer in the near future.
-          </p> -->
-          <!-- Considering revising my bio, going to look at this tomorrow, also may use for Linked'in summary -->
-          <p>
-            Hello, I'm John - a passionate individual with a love for science
-            and technology. My early career path led me towards medicine and
-            emergency medical services as an EMT, Paramedic, and Firefighter
-            Paramedic. While these were fulfilling experiences, my passion for
-            technology and coding took root and eventually led me to pursue a
-            career as a software engineer.
+            As a self-taught developer, I have embraced the challenges and
+            rewards of learning code through trial and error and hands-on
+            experience. With a strong focus on front-end development, I am
+            constantly pushing myself to learn new skills and explore new
+            technologies. Currently I am working on mastering React.js while
+            also refining my knowledge of backend development. My goal is to
+            become a full-stack developer and bring my expertise to a dynamic
+            team that values innovation and creativity.
           </p>
           <p>
-            As a self-taught developer, I have honed my skills in HTML, CSS,
-            JavaScript, and various libraries and frameworks. Currently, I am
-            focused on front-end development and am teaching myself React.js to
-            further advance my skills. I'm driven to become a full-stack
-            developer and bring my expertise to a dynamic team that values
-            innovation and creativity. My diverse background in medicine and
-            technology has given me a unique perspective that allows me to
-            approach coding challenges with a critical and analytical mindset.
+            As I continue to grow and develop my skills as a software engineer,
+            I am excited to bring my diverse background and strong work ethic to
+            the tech industry. With my unique combination of medical expertise
+            and technical skills, I am confident that I would be a valuable
+            asset to any buisness looking for a passionate, knowlegable, and
+            adaptable team member.
           </p>
+
           <a
             class="btn btn-lg btn-outline-warning"
             href="https://www.linkedin.com/in/jrprodev/"
@@ -284,7 +283,7 @@
             <p class="card-text">
               Built a functional to do list that uses local storage to store
               data entries. Building this project reinforced my knowledge on DOM
-              manipulation, event listeners, and object oriented programming.
+              manipulation, array methods, and event listeners.
             </p>
           </div>
           <ul class="list-group list-group-flush">
@@ -317,7 +316,12 @@
         <form onsubmit="sendMail(); reset(); return false;">
           <h3 class="form-text form-title">Contact Form</h3>
           <input type="text" id="toName" placeholder="Your Name" required />
-          <input type="email" id="fromName" placeholder="email@address.com" required />
+          <input
+            type="email"
+            id="fromName"
+            placeholder="email@address.com"
+            required
+          />
           <!-- <input type="text" id="phone" placeholder="Phone #" required /> -->
           <textarea
             class="mb-3"
@@ -333,7 +337,6 @@
       </div>
     </div>
     <!-- Footer -->
-    <!-- Need to decide on the footer -->
     <div class="footer"><p>Copyright 2023</p></div>
     <!-- Bootstrap CDN -->
     <script
